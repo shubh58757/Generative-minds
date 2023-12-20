@@ -1,0 +1,65 @@
+/* navbar.css */
+
+@font-face {
+    font-family: 'Pixeboy';
+    src: url('../fonts/Pixeboy.ttf') format('truetype');
+}
+
+.navbar {
+    background-color: #C9ADA7;
+}
+
+.navbar-brand {
+    font-family: 'Pixeboy', sans-serif;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-item {
+    margin: 0 10px;
+    text-align: center; /* Center the text inside the nav-item */
+}
+
+.navbar-nav.ml-auto {
+    justify-content: flex-end; /* Move items to the right */
+    width: auto; /* Set the width to auto */
+    padding-left: 50px;
+}
+
+.archae-ai {
+    font-weight: bold;
+    font-family: 'Pixeboy', sans-serif;
+    font-size: 30px;
+    color: black;
+    letter-spacing: 5px;
+    margin-left: 20px;
+}
+
+.login-link {
+    display: flex;
+    align-items: center;
+    height: 40px; /* Set the height to match the font size of "ARCHAE.AI" */
+    padding-left: 50px; /* Add padding to match the spacing */
+}
+
+.login-link .nav-link {
+    color: black;
+    margin-right: 10px;
+    font-size: 20px; /* Set font size for login text */
+}
+
+.nav-item .nav-link {
+    color: black !important;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Add space to Login and arrow */
+.nav-item.login-link {
+    margin-left: auto;
+}

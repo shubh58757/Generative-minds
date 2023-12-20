@@ -1,0 +1,51 @@
+/* home.css */
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter/Inter-VariableFont_slnt,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .home-content {
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .home-text {
+    font-size: 64px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 20px; /* Adjust the margin to move the text up */
+  }
+  
+  .generate-button {
+    background-color: #C9ADA7;
+    color: black;
+    padding: 15px 25px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+
+  }
+  
+  .generate-button:hover {
+    background-color: #f0f0f0;
+  }
+
+  .button-link{
+    text-decoration: none; 
+  }
